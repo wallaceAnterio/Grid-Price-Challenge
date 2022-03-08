@@ -51,9 +51,12 @@ main {
    margin-bottom: 1rem;
 }
 
-.newsletter h3 {
+.newsletter h2 {
    color: var(--Bright-Yellow);
    margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+   font-size: 1.2rem;
+   font-weight: 400;
 }
 
 .newsletter p {
