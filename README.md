@@ -9,7 +9,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://wallaceanterio.github.io/Grid-Price-Challenge/
 ### Built with
 - Semantic HTML5 markup
 - CSS custom properties
@@ -18,7 +18,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - Mobile-first workflow
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website/ LinkdIn - https://www.linkedin.com/in/wallaceanterio/
+- Frontend Mentor - [@wallaceAnterio](https://www.frontendmentor.io/profile/yourusername)
 
 
