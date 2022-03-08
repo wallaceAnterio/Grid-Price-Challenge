@@ -1,0 +1,145 @@
+:root {
+   --Cyan: hsl(179, 81%, 36%);
+   --Cyan-light: hsl(179, 62%, 43%);
+   --Bright-Yellow: hsl(71, 73%, 54%);
+   --Bright-Yellow-dark: hsl(71, 62%, 45%);
+   --Light-Gray: hsl(204, 13%, 85%);
+   --Grayish-Blue: hsl(218, 22%, 67%);
+   --white: #fff;
+   --Ul-color: rgba(221, 218, 218, 0.8);
+   --black: rgba(0, 0, 0, 0.07);
+}
+
+body {
+   font-family: "Karla", sans-serif;
+   background: var(--Light-Gray);
+}
+
+main {
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container {
+   width: 85%;
+   max-width: 635px;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 5rem 2rem;
+   border-radius: 5px;
+   box-shadow: 2px 1px 10px 1px var(--Grayish-Blue);
+}
+
+.box {
+   padding: 2rem 1.7rem;
+   display: flex;
+   flex-direction: column;
+}
+
+/* NEWSLETTER */
+.newsletter {
+   background: var(--white);
+   flex-grow: 1;
+}
+.newsletter .price__title {
+   color: var(--Cyan);
+   font-weight: 700;
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+}
+
+.newsletter h3 {
+   color: var(--Bright-Yellow);
+   margin-top: 0.5rem;
+}
+
+.newsletter p {
+   font-size: 0.9rem;
+   line-height: 1.6rem;
+   color: var(--Grayish-Blue);
+   font-weight: 400;
+}
+
+/* PRICE CONTAINER */
+.price__container {
+   background: var(--Cyan);
+   flex-grow: 1;
+   color: var(--white);
+}
+
+.price__container .price__content {
+   display: flex;
+   margin-bottom: 0.5rem;
+}
+
+.price__container .price__content .value__price {
+   font-size: 2rem;
+   font-weight: 700;
+   margin-right: 0.5rem;
+   align-items: center;
+   color: var(--white);
+}
+
+.price__container .price__content .plan {
+   display: flex;
+   align-items: center;
+   color: var(--Light-Gray);
+}
+.price__container h2 {
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+
+.price__container p {
+   font-size: 0.9rem;
+   margin-bottom: 3rem;
+   color: rgb(226, 224, 224);
+   letter-spacing: 0.5px;
+}
+.price__container span {
+   margin-top: 1rem;
+}
+
+/* BUTTON*/
+.price__container button {
+   width: 89%;
+   background-color: hsl(71, 62%, 45%);
+   border: 2px solid transparent;
+   border-radius: 5px;
+   box-shadow: 0px 10px 10px rgba(20, 53, 65, 0.3);
+   padding: 1rem;
+   cursor: pointer;
+   color: var(--white);
+   font-size: 1rem;
+   font-weight: 700;
+   display: block;
+}
+
+.price__container button:hover {
+   background: hsl(71, 73%, 54%);
+   border: 2px solid var(--Light-Gray);
+}
+
+/* ABOUT US*/
+.about_Us {
+   background-color: var(--Cyan-light);
+   flex-grow: 2;
+}
+
+.about_Us ul {
+   color: var(--Ul-color);
+}
+
+.about_Us ul li {
+   margin-top: 0.5rem;
+   font-size: 0.8;
+}
+
+.about_Us h2 {
+   color: var(--white);
+   font-size: 1.3rem;
+   margin-bottom: 0.5rem;
+}
